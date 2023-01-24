@@ -2,7 +2,7 @@ import numpy as np
 import math
 import matplotlib.pyplot as plt
 class Hopfield:
-    def __init__(self, city_loc, cycles=1000, u0=0.2, dt=0.01, A=5,D=3):
+    def __init__(self, city_loc, cycles=1000, u0=0.2, dt=0.001, A=5,D=3):
         '''
         city_loc: 城市位置，用数组表示
         cycles：神经网络迭代次数
